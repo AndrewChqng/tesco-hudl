@@ -3040,6 +3040,7 @@ static struct cpufreq_frequency_table dvfs_ddr_table[] = {
     {.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1160 * 1000},
 	//{.frequency = 700 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},//needs testing
     //{.frequency = 528 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},
+	{.frequency = 700 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1200 * 1000},
     {.frequency = CPUFREQ_TABLE_END},
 };
 
