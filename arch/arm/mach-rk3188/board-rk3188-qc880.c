@@ -3024,7 +3024,7 @@ static struct cpufreq_frequency_table dvfs_gpu_table [] = {
     {.frequency = 100 * 1000, 	.index = 950 * 1000},//the minimum rate is no limit for rk3168 rk3066B
 #endif
     {.frequency = 198 * 1000,       .index = 990 * 1000},
-    {.frequency = 256 * 1000,       .index = 1015 * 1000},
+    {.frequency = 256 * 1000,       .index = 1020 * 1000},
     {.frequency = 297 * 1000,       .index = 1040 * 1000},
     {.frequency = 396 * 1000,       .index = 1090 * 1000},
     {.frequency = 594 * 1000,       .index = 1230 * 1000},
@@ -3040,7 +3040,7 @@ static struct cpufreq_frequency_table dvfs_ddr_table[] = {
     {.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1160 * 1000},
 	//{.frequency = 700 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},//unstable!
     //{.frequency = 528 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},
-	{.frequency = 667 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1250 * 1000},
+	{.frequency = 667 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1160 * 1000},
     {.frequency = CPUFREQ_TABLE_END},
 };
 
