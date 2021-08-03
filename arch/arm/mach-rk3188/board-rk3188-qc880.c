@@ -3037,10 +3037,10 @@ static struct cpufreq_frequency_table dvfs_ddr_table[] = {
     //{.frequency = 200 * 1000 + DDR_FREQ_SUSPEND,    .index = 950 * 1000},
     {.frequency = 200 * 1000 + DDR_FREQ_SUSPEND,    .index = 950 * 1000},
     {.frequency = 300 * 1000 + DDR_FREQ_VIDEO,      .index = 975 * 1000},
-    {.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1160 * 1000},
-	//{.frequency = 700 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},//unstable!
+    //{.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1160 * 1000},
+	{.frequency = 700 * 1000 + DDR_FREQ_NORMAL,     .index = 1180 * 1000},//unstable!
     //{.frequency = 528 * 1000 + DDR_FREQ_NORMAL,     .index = 1200 * 1000},
-	{.frequency = 667 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1160 * 1000},
+	{.frequency = 700 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1180 * 1000},
     {.frequency = CPUFREQ_TABLE_END},
 };
 
