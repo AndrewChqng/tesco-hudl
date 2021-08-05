@@ -3013,6 +3013,7 @@ static struct cpufreq_frequency_table dvfs_arm_table[] = {
         {.frequency = 1608 * 1000,      .index = 1280 * 1000},
         {.frequency = 1704 * 1000,      .index = 1300 * 1000},
 		{.frequency = 1800 * 1000,      .index = 1350 * 1000},//still unstable
+        {.frequency = 1920 * 1000,      .index = 1420 * 1000},
         {.frequency = CPUFREQ_TABLE_END},4
 };
 /******************************** gpu dvfs frequency volt table **********************************/
@@ -3028,7 +3029,7 @@ static struct cpufreq_frequency_table dvfs_gpu_table [] = {
     {.frequency = 297 * 1000,       .index = 1010 * 1000},
     {.frequency = 396 * 1000,       .index = 1060	* 1000},
     {.frequency = 594 * 1000,       .index = 1155 * 1000},
-    //{.frequency = 768 * 1000,       .index = 1265 * 1000},
+    {.frequency = 768 * 1000,       .index = 1260 * 1000},
     {.frequency = CPUFREQ_TABLE_END},
 };
 
