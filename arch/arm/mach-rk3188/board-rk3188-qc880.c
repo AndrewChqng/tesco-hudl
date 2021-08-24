@@ -3002,17 +3002,17 @@ static void __init rk30_reserve(void)
  * comments	: min arm/logic voltage
  */
 static struct cpufreq_frequency_table dvfs_arm_table[] = {
-        {.frequency = 126 * 1000,       .index = 780 * 1000},
-        {.frequency = 252 * 1000,       .index = 800 * 1000},
-        {.frequency = 312 * 1000,       .index = 850 * 1000},
-        {.frequency = 504 * 1000,       .index = 900 * 1000},
-        {.frequency = 816 * 1000,       .index = 950 * 1000},
-        {.frequency = 1008 * 1000,      .index = 1050 * 1000},
+        {.frequency = 126 * 1000,       .index = 790 * 1000},
+        {.frequency = 252 * 1000,       .index = 820 * 1000},
+        {.frequency = 312 * 1000,       .index = 855 * 1000},
+        {.frequency = 504 * 1000,       .index = 905 * 1000},
+        {.frequency = 816 * 1000,       .index = 955 * 1000},
+        {.frequency = 1008 * 1000,      .index = 1055 * 1000},
         {.frequency = 1200 * 1000,      .index = 1125 * 1000},
-        {.frequency = 1416 * 1000,      .index = 1220 * 1000},
-        {.frequency = 1608 * 1000,      .index = 1280 * 1000},
-        {.frequency = 1704 * 1000,      .index = 1300 * 1000},
-		{.frequency = 1800 * 1000,      .index = 1350 * 1000},//still unstable
+        {.frequency = 1416 * 1000,      .index = 1225 * 1000},
+        {.frequency = 1608 * 1000,      .index = 1290 * 1000},
+        {.frequency = 1704 * 1000,      .index = 1320 * 1000},
+		{.frequency = 1800 * 1000,      .index = 1375 * 1000},//still unstable
         //{.frequency = 1920 * 1000,      .index = 1450 * 1000},
         {.frequency = CPUFREQ_TABLE_END},4
 };
@@ -3038,9 +3038,9 @@ static struct cpufreq_frequency_table dvfs_ddr_table[] = {
     //{.frequency = 200 * 1000 + DDR_FREQ_SUSPEND,    .index = 950 * 1000},
     {.frequency = 200 * 1000 + DDR_FREQ_SUSPEND,    .index = 925 * 1000},
     {.frequency = 200 * 1000 + DDR_FREQ_VIDEO,      .index = 925 * 1000},
-    {.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1135 * 1000},//dont touch anymore
+    //{.frequency = 667 * 1000 + DDR_FREQ_NORMAL,     .index = 1135 * 1000},//dont touch anymore
 	//{.frequency = 700 * 1000 + DDR_FREQ_NORMAL,     .index = 1180 * 1000},//unstable!
-    //{.frequency = 528 * 1000 + DDR_FREQ_NORMAL,     .index = 1100 * 1000},
+    {.frequency = 410 * 1000 + DDR_FREQ_NORMAL,     .index = 1050 * 1000},
 	//{.frequency = 700 * 1000 + DDR_FREQ_DUALVIEW,   .index = 1180 * 1000},
     {.frequency = CPUFREQ_TABLE_END},
 };
