@@ -1,0 +1,3 @@
+[submodule "arm-cortex_a9-linux-gnueabihf-linaro_4.9"]
+	path = arm-cortex_a9-linux-gnueabihf-linaro_4.9
+	url = https://github.com/Christopher83/arm-cortex_a9-linux-gnueabihf-linaro_4.9.git
